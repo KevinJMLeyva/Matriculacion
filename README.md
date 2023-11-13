@@ -26,3 +26,22 @@ SICT0303: Implementa acciones científicas
 Como se mentior anterior mente se utilizo la capacidad que tiene la lista de su vinculación con parte izquierda y derecha, por lo que si queremos acceder a un elemento por medio de su index, podemos determinar de manera rápida desde que punto debemos partir (tomando en cuenta que nos posicionamos en el centro), situación que disminute la complejidad de está acción.
 
 Los datos fueron extraído de un archivo .txt, el cual alamecena 139 nombre diferentes, y que son usados en el porgrama. Para alamacenar estos datos, el archivo de texto se fue leyendo línea por línea y cada valor de la línea era asignado a un nodo que forma parte de nuestra lista ligada doble.
+
+# Proyecto Avance 3 estructuras
+
+SICT0301: Evalúa los componentes
+
+Para el analisis de complejidad se analizaran las princiaples funciones del programa:
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+
+
+
+SICT0303: Implementa acciones científicas
+
+El programa incluye la opción de guardar la lista ordenada de los alumnos, con su correpondiente matrícula en un archivo txt, además da la posibilidad de elegir la ruta en donde se quiera guardar el archivo.
