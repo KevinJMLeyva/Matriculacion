@@ -29,19 +29,27 @@ Los datos fueron extraído de un archivo .txt, el cual alamecena 139 nombre dife
 
 # Proyecto Avance 3 estructuras
 
+Para el Avance 3 se perfecciono el algoritmo de ordenamiento de la lista y se agregaron algunas funciones nuevas, siguiendo con la estructura DBL (Double Linked List).
+ 
 SICT0301: Evalúa los componentes
 
-Para el analisis de complejidad se analizaran las princiaples funciones del programa:
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+Para el análisis de complejidad se analizaran las principales funciones del programa, en donde se pondrá el nombre de la función en el menú y la función de la clase usada:   
+1.Visualizar alumnos.alumnos.print(); Para la visualización de los datos tenemos una complejidad de N, ya que no hay otra opción más que reccorrer la lista en su totalidad, para mostrar todos los elementos que la componen. 
 
+2. Ordenar alumnos por orden alfabetico. alumnos.ordena(); Para el ordenamiento de la lista se uso un mergesort, algoritmo que posee una complejidad de o(n)log(n). A grandes rasgos el algoritmo segmenta la lista y ordena segmentos de la lista, para después unirla, ya que esto es más rápido que ordenar una lista desde cero. En los anteriores avances se describe de mejor manera el funcionamiento del mergesort.  
+ 
+3.Añadir alumno.alumnos.addFirst(nuevo_alumno); Está función tiene una complejidad de 1, ya que usamos las propiedades de la DBL para ponerlo en la primera posición, en esta misma función ordenamos la lista, usando el merge sort, por lo que la función tiene una complejidad de O(n)log(n). 
 
+4.Buscar alumno. alumnos.get(index1); para esta función se posee una complejidad de n/2, ya que parte de la mitad del arreglo y se determina si el index es mayor o menor al index intermedio del agrego.  
+ 
+5.Asignar matrículas.  alumnos.printMatriculas(); complejidad de N, ya que se debe recorrer todos los elementos de la lista. 
+
+6.Guardar cambios. alumnos.guardarMatriculas(nombre_archivo_matriculas_pred); compeljidad de N, ya que se debe recorrer todos los elementos de la lista.
+
+7.Modificar alumno.  alumnos.set(alumno_modifico,alumno_nombre); para esta función se posee una complejidad de n/2, ya que parte de la mitad del arreglo y se determina si el index es mayor o menor al index intermedio del arreglo.  
+
+En conclusión, cuando se trata de modificar datos o hacer una consulta se posee una complejidad de n/2, en caso de recorrer toda la lista una complejidad de N y en el caso de ordenar la lista se tiene una complejidad O(n)log(n), gracias al mergesort
 
 SICT0303: Implementa acciones científicas
 
-El programa incluye la opción de guardar la lista ordenada de los alumnos, con su correpondiente matrícula en un archivo txt, además da la posibilidad de elegir la ruta en donde se quiera guardar el archivo.
+El programa incluye la opción de guardar la lista ordenada de los alumnos, con su correspondiente matrícula en un archivo txt, además da la posibilidad de elegir la ruta en donde se quiera guardar el archivo.
