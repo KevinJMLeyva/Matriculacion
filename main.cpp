@@ -66,7 +66,8 @@ if (newfile.is_open()){
       //Ingresar nuevo alumno, es más rápido si lo ingresamos en la primera posición, ya que no recorremos el arreglo
       std::string nuevo_alumno;
       std::cout<<"\nIngresa el nombre del nuevo alumno:";
-      std::cin >> nuevo_alumno;
+      std::cin.ignore(); // Eliminamos el salto de linea
+      std::getline(std::cin, nuevo_alumno);
       alumnos.addFirst(nuevo_alumno);
       alumnos.ordena();
       std::cout<<"\nSe ha agregado a: "<<nuevo_alumno<<" y se ha ordenado la lista.\n";
