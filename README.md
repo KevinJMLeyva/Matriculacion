@@ -15,7 +15,7 @@ SICT0302 Selecciona una estructura de datos adecuada al problema y lo usa correc
 En este caso se usó una lista ligada doble, ya que es una herramienta con más versatilidad que una lista común y corriente, un ejemplo de esto es la implementación del get del nombre del alumno, ya que esta posee una complejidad de o(n/2), por lo que mejora enormemente con respecto a un vector, o lista simple. Sumado a lo anterior la implementación de algoritmos de ordenamiento se facilita, ya que es parecido a ordenar un arreglo normal.
 
 
-#SICT0301: Evalúa los componentes
+**SICT0301: Evalúa los componentes
 
 SICT0301: Hace un análisis de complejidad correcto y completo para los algoritmos de ordenamiento usados en el programa.
 El algoritmo de ordenamiento usado es un merge sort, es el único utilizado en el programa y tiene una complejidad de O(n)log(n)
