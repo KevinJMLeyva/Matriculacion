@@ -8,8 +8,10 @@ El algoritmo usado para el ordenamiento de datos dentro del programa fue un merg
 ![image](https://github.com/KevinJMLeyva/ProgramacionDeEstructurasDeDatos-Matriculacion/assets/145345829/2ead7044-438c-4fa9-bde0-595dd17e317b)
 
 La complejidad de este algoritmo es de O(n)log(n), debido a que entre más se sube en el árbol recursivo más rápido será el ordenamiento, ya que entre más se sube en el árbol más ordenado se encuentran los datos, esto se debe a que ir ordenando pequeños conjuntos es más rápido que ordenar todos los datos sin ningún orden. Un ejemplo sencillo para entender esto es armar un rompecabezas, ya que si buscas exactamente la pieza que encaja con otra pieza tardarás más tiempo que si vas armando “pedazos” de figuras y posteriormente los unes con otros “pedazos” que ya has armado.
+
 El algoritmo de búsqueda es de O(n/2), ya que siempre que se busque la lista está ordenada, por lo que podemos partir del centro de la lista y valorar si el elemento que buscamos es menor o mayor que el que se encuentra en la mitad de la lista.ç
 SICT0302 Selecciona una estructura de datos adecuada al problema y lo usa correctamente.
+
 En este caso se usó una lista ligada doble, ya que es una herramienta con más versatilidad que una lista común y corriente, un ejemplo de esto es la implementación del get del nombre del alumno, ya que esta posee una complejidad de o(n/2), por lo que mejora enormemente con respecto a un vector, o lista simple. Sumado a lo anterior la implementación de algoritmos de ordenamiento se facilita, ya que es parecido a ordenar un arreglo normal.
 
 
