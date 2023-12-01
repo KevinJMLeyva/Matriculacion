@@ -39,7 +39,7 @@ if (newfile.is_open()){
 
   while(opc!="8"){ ///Menú de 8 opciones, bueno 7 si no contamos el salir
     std::cout<<"\n\n_________Men"<<char(163)<<" de alumnos_________";
-    std::cout<<"\n1.Visualizar alumnos. \n2.Ordenar alumnos por orden alfabetico. \n3.A"<<char(164)<<"adir alumno. \n4.Modificar alumno, por n"<<char(163)<<" de lista. \n5.Buscar alumno por n"<<char(163)<<"mero de lista. \n6.Visualizar matr"<<char(161)<<"culas.\n7.Guardar cambios en las matr"<<char(161)<<"culas. \n8.Salir.";
+    std::cout<<"\n1.Visualizar alumnos. \n2.Ordenar alumnos por orden alfabetico. \n3.A"<<char(164)<<"adir alumno. \n4.Modificar alumno, por n"<<char(163)<<"mero de lista. \n5.Buscar alumno por n"<<char(163)<<"mero de lista. \n6.Visualizar matr"<<char(161)<<"culas.\n7.Guardar cambios en las matr"<<char(161)<<"culas. \n8.Salir.";
     std::cout<<"\nElige una opci"<<char(162)<<"n:";
     std::cin >> opc;
     if(opc=="1"){
